@@ -7,20 +7,20 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-mas-core": {
+  "cordova-plugin-mas-storage": {
     "source": {
-      "type": "local",
-      "path": "D:\\APIM_CLIENT\\MAS-Storage\\StorageSample\\node_modules\\cordova-plugin-mas-core"
+      "type": "registry",
+      "id": "cordova-plugin-mas-storage"
     },
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-mas-storage": {
+  "cordova-plugin-mas-core": {
     "source": {
-      "type": "local",
-      "path": "D:\\APIM_CLIENT\\MAS-Storage\\StorageSample\\node_modules\\cordova-plugin-mas-storage"
+      "type": "registry",
+      "id": "cordova-plugin-mas-core"
     },
-    "is_top_level": true,
+    "is_top_level": false,
     "variables": {}
   }
 }
