@@ -10,13 +10,12 @@
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.ca.mas.sample.storage"
     },
+    "cordova-plugin-mas-core": {
+      "PACKAGE_NAME": "com.ca.mas.sample.storage"
+    },
     "cordova-plugin-mas-storage": {
       "PACKAGE_NAME": "com.ca.mas.sample.storage"
     }
   },
-  "dependent_plugins": {
-    "cordova-plugin-mas-core": {
-      "PACKAGE_NAME": "com.ca.mas.sample.storage"
-    }
-  }
+  "dependent_plugins": {}
 }
