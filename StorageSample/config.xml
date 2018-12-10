@@ -25,5 +25,5 @@
     </platform>
     <plugin name="cordova-plugin-mas-core" spec="..\Cordova-MAS-Foundation" />
     <plugin name="cordova-plugin-mas-storage" spec="..\Cordova-MAS-Storage" />
-    <engine name="android" spec="^7.0.0" />
+    <engine name="android" spec="^7.1.4" />
 </widget>
