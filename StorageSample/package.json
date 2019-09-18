@@ -1,28 +1,33 @@
 {
-    "name": "com.ca.mas.sample.storage",
-    "displayName": "StorageSample",
-    "version": "1.0.0",
-    "description": "A sample Apache Cordova application that responds to the deviceready event.",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "com.ca.mas.sample.storage",
+  "displayName": "StorageSample",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.0.0",
+    "cordova-plugin-mas-core": "file:../Cordova-MAS-Foundation",
+    "cordova-plugin-mas-storage": "file:../Cordova-MAS-Storage"
+  },
+  "devDependencies": {
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-mas-core": {},
+      "cordova-plugin-mas-storage": {}
     },
-    "author": "Apache Cordova Team",
-    "license": "Apache-2.0",
-    "dependencies": {
-        "cordova-android": "^7.1.4",
-        "cordova-plugin-mas-core": "file:../Cordova-MAS-Foundation",
-        "cordova-plugin-mas-storage": "file:../Cordova-MAS-Storage",
-        "cordova-plugin-whitelist": "^1.3.3"
-    },
-    "cordova": {
-        "plugins": {
-            "cordova-plugin-whitelist": {},
-            "cordova-plugin-mas-core": {},
-            "cordova-plugin-mas-storage": {}
-        },
-        "platforms": [
-            "android"
-        ]
-    }
+    "platforms": [
+      "android"
+    ]
+  }
 }
