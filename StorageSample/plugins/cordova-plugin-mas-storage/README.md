@@ -9,6 +9,7 @@ The MAS-Storage-Cordova framework provides support for Local Device Storage
 
 ## Get Started
 For documentation visit our visit our [developer site](https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-1/Cordova/Cordova_2-1.html).
+
 *********************************************************
 
 ## How You Can Contribute
@@ -20,6 +21,7 @@ The reference documents for the MAS modules are generated using the JSDoc markdo
 To install JSDoc, follow the instructions on [JSDoc](http://usejsdoc.org/) website.
 
 The Cordova reference documents are available at our [techdocs]( https://techdocs.broadcom.com/content/broadcom/techdocs/us/en/ca-enterprise-software/layer7-api-management/mobile-sdk-for-ca-mobile-api-gateway/2-1/Cordova/CordovaTR_2-1/MASStorage.html) site.
+
 
 Example:
 An annotated comment for validateOTP method is as follows:
